@@ -1,5 +1,3 @@
-package com.nvrs.test.first
-
 @Grapes([
 	@Grab(group='com.google.cloud', module='libraries-bom', version='26.1.0', type='pom'),
 	@Grab(group='com.google.cloud', module='google-cloud-secretmanager', version='2.3.1')])
