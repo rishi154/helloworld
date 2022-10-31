@@ -27,7 +27,8 @@ class FirstGroovy {
 	// Access the payload for the given secret version if one exists. The version
 	// can be a version number as a string (e.g. "5") or an alias (e.g. "latest").
 	@NonCPS
-	public static void accessSecretVersion(String projectId, String secretId, String versionId)  throws IOException {
+	//public static void accessSecretVersion(String projectId, String secretId, String versionId)  throws IOException {
+	def accessSecretVersion(String projectId, String secretId, String versionId)  throws IOException {	
 		SecretManagerServiceClient client = SecretManagerServiceClient.create()
 
 		if(client !=null) {
