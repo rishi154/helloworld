@@ -15,6 +15,7 @@ import java.util.zip.Checksum;
 import com.google.protobuf.ByteString;
 
 class FirstGroovy {
+	@NonCPS
 	static void main(def args){
 		String projectId = args[0] //  "Project ID"
 		String secretId = args[1]  //  "Secret ID"
@@ -25,6 +26,7 @@ class FirstGroovy {
 
 	// Access the payload for the given secret version if one exists. The version
 	// can be a version number as a string (e.g. "5") or an alias (e.g. "latest").
+	@NonCPS
 	public static void accessSecretVersion(String projectId, String secretId, String versionId)  throws IOException {
 		SecretManagerServiceClient client = SecretManagerServiceClient.create()
 
