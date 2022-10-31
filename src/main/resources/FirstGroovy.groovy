@@ -18,8 +18,8 @@ class FirstGroovy {
 		String projectId = args[0] //  "Project ID"
 		String secretId = args[1]  //  "Secret ID"
 		String versionId = args[2] //  "Secret Version ID"
-
-		accessSecretVersion(projectId, secretId, versionId)
+		System.out.printf("Hello ..................   ");
+		//accessSecretVersion(projectId, secretId, versionId)
 	}
 
 	// Access the payload for the given secret version if one exists. The version
