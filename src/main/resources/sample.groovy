@@ -1,10 +1,10 @@
 
 
 class FirstGroovy {
-	static void main(def args){
-		System.out.printf("Hello ..................   ");
+     static void main(def args){
+		println("Helllllllo.....")
 		//accessSecretVersion(projectId, secretId, versionId)
-	}
+     }
     
     def exampleMethod() {
         println("exampleMethod")
