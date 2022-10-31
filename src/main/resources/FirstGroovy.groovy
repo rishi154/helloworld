@@ -49,6 +49,10 @@ class FirstGroovy {
 			System.out.printf("Plaintext: %s\n", payload);
 		}
 	}
+	
+	def printHello(){
+	   printf('hello');
+	}
 }
 return this
 
